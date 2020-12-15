@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int A,B,C;
+    cout<<"enter a number A,B,C";
+    cin>>A>>B>>C;
+    if(A >= B && A >= C)
+    {
+        cout<<"the largrst number is A";
+    }
+    if(B >= A && B >= C)
+    {
+        cout<<"the largest number is B";
+    }
+    if(C >= A && C >= B)
+    {
+        cout<<" the largest number is C";
+    }
+}
